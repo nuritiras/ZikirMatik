@@ -1,3 +1,4 @@
 # Zikir Matik
 ## TextView ve Buton Uygulaması
-<img width="1710" alt="Ekran Resmi 2024-10-30 15 26 50" src="https://github.com/user-attachments/assets/0d07d539-cc5b-4bda-8c68-bd99ddfafb11">
+
+<img width="539" alt="Ekran Resmi 2024-10-30 15 30 09" src="https://github.com/user-attachments/assets/e01a8ea1-df65-4e07-af17-8647af5443b2">
