@@ -29,11 +29,21 @@ class MainActivity : AppCompatActivity() {
     fun onClickReset(view: View) {
         count = 0
         val textViewSonuc = findViewById<TextView>(R.id.textViewSonuc)
-        textViewSonuc.setText(count.toString())
+        val buttonCount = findViewById<Button>(R.id.buttonCount)
+        textViewSonuc.setText("سُبْحانَ اللّه")
+        buttonCount.setText("0/99")
     }
     fun onClickCount(view: View) {
         count++
         val textViewSonuc = findViewById<TextView>(R.id.textViewSonuc)
-        textViewSonuc.setText(count.toString())
+        val buttonCount = findViewById<Button>(R.id.buttonCount)
+        buttonCount.setText(count.toString()+"/99")
+        if(count==34){
+            textViewSonuc.setText("اَلْحَمْدُ اللّه")
+        }
+        if(count==67){
+            textViewSonuc.setText("اللَّهُ أَكْبَرُ")
+        }
+        if(count==99) count=98
     }
 }
